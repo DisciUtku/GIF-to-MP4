@@ -2,14 +2,11 @@
 
 This program is a simple and lightweight GUI application that batch converts all GIF files in a selected folder to MP4 format.
 
-## ✨ Features
+## Features
 
-- 🎬 **GIF Conversion**: Converts GIF files to MP4 format
-- 📁 **Batch Processing**: Automatically finds all GIF files in the folder
-- 🎨 **Modern GUI**: User-friendly and modern interface
-- 📊 **Progress Tracking**: Real-time progress bar
-- 🚀 **Fast Conversion**: Optimized conversion using FFmpeg
-- 📤 **Auto Output**: Automatically saves to "Outputs" folder
+-  **GIF Conversion**: Converts GIF files to MP4 format
+-  **Batch Processing**: Automatically finds all GIF files in the folder
+-  **Fast Conversion**: Optimized conversion using FFmpeg
 
 ## Requirements
 
@@ -64,35 +61,23 @@ You can double-click the `start.bat` file to start the program.
 5. **Wait for Completion**: Follow the progress bar
 6. **Check Results**: Find your MP4 files in the "Outputs" folder
 
-## 📁 Output Details
+##  Output Details
 
 - **Output Folder**: "Outputs" folder is created inside the selected folder
 - **File Names**: Original file names are preserved, only extension becomes .mp4
 - **Example**: `animation.gif` → `Outputs/animation.mp4`
 
-## 🎬 Supported Formats
+##  Supported Formats
 
 - **GIF**: Animated GIF files (most common format)
 
 ## Technical Details
-
-### Modern Design Features
-- **Color Palette**: Modern blue, green and gray tones
-- **Typography**: Segoe UI font family usage
-- **Icons**: Emoji-based visual feedback
-- **Layout**: Card-based modern layout
-- **Responsive**: Design adaptable to different screen sizes
 
 ### Conversion Parameters
 - **Video Codec**: H.264 (libx264)
 - **Pixel Format**: yuv420p (for wide compatibility)
 - **Quality**: Original GIF quality is preserved
 
-### Error Handling
-- Shows installation instructions if FFmpeg is not installed
-- Informs user if an error occurs during conversion
-- Conversion process runs in a separate thread to prevent interface freezing
-- User experience improved with visual feedback
 
 ## Troubleshooting
 
