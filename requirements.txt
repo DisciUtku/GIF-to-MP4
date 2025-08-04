@@ -1,0 +1,4 @@
+# GIF to MP4 Converter Requirements
+
+# This program does not require additional Python libraries
+# Only FFmpeg needs to be installed on your system 
